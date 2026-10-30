@@ -1,0 +1,36 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-cache-files-*/
+backend/data/app.db
+backend/data/checkpoints.sqlite
+backend/data/uploads/
+backend/.env
+.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.tmp/
+frontend/.pnpm-store/
+.pnpm-store/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# DeepSeek Harness project state (skills, caches)
+.dsh/
+.superdesign/
+.jbeval/
+
+# Runtime temp
+.tmp/
+*.log
+
+*.png
+*.pdf

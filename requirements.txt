@@ -1,0 +1,33 @@
+# Web / API
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+pydantic==2.14.1
+pydantic-settings==2.16.1
+python-multipart==0.0.32
+PyJWT==2.15.1
+
+# ORM / DB（开发默认 SQLite；生产可切 PostgreSQL）
+sqlalchemy[asyncio]==2.1.6
+aiosqlite==0.22.1
+# asyncpg==0.30.0            # 切 PostgreSQL 时启用
+
+# Agent / LLM
+langchain==1.4.7
+langchain-core==1.7.0
+langchain-openai==1.7.3
+langgraph==1.2.18
+langgraph-checkpoint-sqlite==3.1.2
+# langgraph-checkpoint-postgres # 生产使用 PostgresSaver 时启用
+
+# 文档解析
+pdfplumber==0.11.10
+python-docx==1.2.0
+openpyxl==3.1.5
+
+# 求解（学分归属 CP-SAT）
+ortools==9.15.6755
+
+# 测试 / HTTP
+httpx==0.28.1
+pytest==9.1.1
+pytest-asyncio==1.4.1

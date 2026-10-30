@@ -1,0 +1,267 @@
+plan_id: CS-BT-2024-v1
+name: 2024版 计算机科学与技术（拔尖班）培养方案
+major: 计算机科学与技术（拔尖班）
+major_code: "080901"
+grade: 2024
+degree: 工学学士
+duration: {standard: 4, min: 3, max: 6}
+total_credits: 169.0
+status: frozen
+source: 2024版-计科（拔尖班）培养方案.pdf
+effective_from: "2024-09-01"
+
+graduation_conditions:
+  - {type: credits, value: 169.0, label: 修满 169 学分}
+  - {type: second_classroom, value: pass, label: 第二课堂合格}
+  - {type: thesis_defense, value: pass, label: 毕业论文（设计）答辩合格}
+
+second_classroom:
+  - {category: 主题社会实践, period_type: year, min_count: 1, label: 每学年 ≥ 1 次}
+  - {category: 创新实践, period_type: year, min_count: 1, label: 每学年 ≥ 1 项总结报告}
+  - {category: 学科竞赛与项目, period_type: total, min_count: 1, label: 至少 1 项国家级奖励}
+  - {category: 学术交流研讨, period_type: term, min_count: 2, label: 每学期 ≥ 2 次}
+
+# 指导性学期 1-1 … 4-2；考核方式；修读要求；课程类别
+modules:
+  - id: M1
+    name: 公共基础必修课
+    mode: all_of
+    require: 38.0
+    courses:
+      - {code: B881209, name: 思想道德与法治, credit: 3.0, term: 1-1, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B881210, name: 中国近现代史纲要, credit: 3.0, term: 1-1, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B881211, name: 毛泽东思想和中国特色社会主义理论体系概论, credit: 3.0, term: 2-1, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B881212, name: 马克思主义基本原理, credit: 3.0, term: 1-2, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B881215, name: 习近平新时代中国特色社会主义思想概论, credit: 3.0, term: 2-1, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B881605, name: 形势与政策1, credit: 0.5, term: 1-2, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B881606, name: 形势与政策2, credit: 0.5, term: 2-1, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B881607, name: 形势与政策3, credit: 0.5, term: 2-2, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B881608, name: 形势与政策4, credit: 0.5, term: 4-2, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B101001, name: 大学英语1, credit: 2.0, term: 1-1, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B101002, name: 大学英语2, credit: 2.0, term: 1-2, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B101003, name: 大学英语3, credit: 2.0, term: 2-1, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B101004, name: 大学英语4, credit: 2.0, term: 2-2, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B151101, name: 大学体育1, credit: 1.0, term: 1-1, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B151102, name: 大学体育2, credit: 1.0, term: 1-2, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B151103, name: 大学体育3, credit: 1.0, term: 2-1, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B151104, name: 大学体育4, credit: 1.0, term: 2-2, assessment: 考试, nature: 必修, category: 公共基础课}
+      - {code: B191003, name: 军事理论, credit: 2.0, term: 1-1, assessment: 考查, nature: 必修, category: 公共基础课}
+      - {code: B191001, name: 大学生职业生涯规划, credit: 1.0, term: 1-1, assessment: 考查, nature: 必修, category: 通识教育课}
+      - {code: B081004, name: 创业教育与就业指导（上）, credit: 1.5, term: 2-2, assessment: 考查, nature: 必修, category: 公共基础课}
+      - {code: B191002, name: 创业教育与就业指导（下）, credit: 0.5, term: 4-1, assessment: 考查, nature: 必修, category: 公共基础课}
+      - {code: B881213, name: 大学生心理健康教育1, credit: 1.0, term: 1-1, assessment: 考查, nature: 必修, category: 公共基础课}
+      - {code: B881214, name: 大学生心理健康教育2, credit: 1.0, term: 1-2, assessment: 考查, nature: 必修, category: 公共基础课}
+      - {code: L031003, name: 劳动教育（1）, credit: 1.0, term: 2-2, assessment: 考查, nature: 必修, category: 公共基础课}
+      - {code: L031004, name: 劳动教育（2）, credit: 1.0, term: 3-1, assessment: 考查, nature: 必修, category: 公共基础课}
+
+  - id: M2
+    name: 综合素质选修课
+    mode: all_of
+    require: 10.0
+    window: {from_term: 2}
+    children:
+      - id: M2-1
+        name: 思想政治理论
+        mode: all_of
+        require: 2.0
+        children:
+          - id: M2-1-1
+            name: 四史
+            mode: all_of
+            require: 1.0
+            tag: 四史
+            courses:
+              - {code: B90A001, name: 四史专题, credit: 1.0, term: 2-1, assessment: 考查, nature: 选修, category: 通识教育课, tags: [四史, 思想政治理论]}
+          - id: M2-1-2
+            name: 文化
+            mode: all_of
+            require: 1.0
+            tag: 文化
+            courses:
+              - {code: B90A002, name: 中华优秀传统文化, credit: 1.0, term: 2-2, assessment: 考查, nature: 选修, category: 通识教育课, tags: [文化, 思想政治理论]}
+              - {code: B90A003, name: 中国文化概论, credit: 1.0, term: 3-1, assessment: 考查, nature: 选修, category: 通识教育课, tags: [文化, 思想政治理论]}
+      - id: M2-2
+        name: 安全教育
+        mode: all_of
+        require: 2.0
+        tag: 安全教育
+        courses:
+          - {code: B90A004, name: 大学生安全教育, credit: 2.0, term: 1-2, assessment: 考查, nature: 选修, category: 通识教育课, tags: [安全教育]}
+      - id: M2-3
+        name: 艺术体育
+        mode: all_of
+        require: 2.0
+        tag: 公共艺术
+        courses:
+          - {code: B90A005, name: 音乐鉴赏, credit: 1.0, term: 2-1, assessment: 考查, nature: 选修, category: 通识教育课, tags: [艺术体育, 公共艺术]}
+          - {code: B90A006, name: 美术鉴赏, credit: 1.0, term: 2-2, assessment: 考查, nature: 选修, category: 通识教育课, tags: [艺术体育, 公共艺术]}
+          - {code: B90A009, name: 大学美育, credit: 1.0, term: 3-1, assessment: 考查, nature: 选修, category: 通识教育课, tags: [艺术体育, 公共艺术]}
+      - id: M2-4
+        name: 其他类
+        mode: free
+        require: 4.0
+        tags: [人文社科, 自然科学, 经济管理, 外语]
+        courses:
+          - {code: B90A007, name: 西方哲学史, credit: 2.0, term: 2-2, assessment: 考查, nature: 选修, category: 通识教育课, tags: [人文社科]}
+          - {code: B90A008, name: 科学史, credit: 2.0, term: 3-1, assessment: 考查, nature: 选修, category: 通识教育课, tags: [自然科学]}
+          - {code: B90A010, name: 经济学导论, credit: 2.0, term: 2-2, assessment: 考查, nature: 选修, category: 通识教育课, tags: [经济管理]}
+          - {code: B90A011, name: 学术英语, credit: 2.0, term: 3-1, assessment: 考查, nature: 选修, category: 通识教育课, tags: [外语]}
+
+  - id: M3
+    name: 专业基础必修课
+    mode: all_of
+    require: 44.5
+    courses:
+      - {code: B113101, name: 高等数学I（上）, credit: 5.0, term: 1-1, assessment: 考试, nature: 必修, category: 专业基础课}
+      - {code: B113102, name: 高等数学I（下）, credit: 6.0, term: 1-2, assessment: 考试, nature: 必修, category: 专业基础课}
+      - {code: B113121, name: 线性代数I, credit: 3.0, term: 1-1, assessment: 考试, nature: 必修, category: 专业基础课}
+      - {code: B113123, name: 概率论与数理统计I, credit: 3.0, term: 2-1, assessment: 考试, nature: 必修, category: 专业基础课}
+      - {code: B863504, name: 大学物理（3）, credit: 4.0, term: 1-2, assessment: 考试, nature: 必修, category: 专业基础课}
+      - {code: B033902, name: 程序设计基础, credit: 4.0, term: 1-1, assessment: 考试, nature: 必修, category: 专业基础课}
+      - {code: B033931, name: 面向对象程序设计(Java), credit: 3.5, term: 1-2, assessment: 考试, nature: 必修, category: 专业基础课}
+      - {code: B033903, name: 离散数学, credit: 3.0, term: 1-2, assessment: 考试, nature: 必修, category: 专业基础课}
+      - {code: B033905, name: 数据结构, credit: 4.0, term: 2-1, assessment: 考试, nature: 必修, category: 专业基础课}
+      - {code: B033005, name: Linux实训, credit: 1.0, term: 2-2, assessment: 考查, nature: 必修, category: 专业基础课}
+      - {code: B033906, name: 计算机组成原理, credit: 4.0, term: 2-2, assessment: 考试, nature: 必修, category: 专业基础课}
+      - {code: B033003, name: 电路与数字逻辑, credit: 4.0, term: 1-2, assessment: 考试, nature: 必修, category: 专业基础课}
+
+  - id: M4
+    name: 专业核心课
+    mode: all_of
+    require: 22.5
+    courses:
+      - {code: B034005, name: 数据库原理, credit: 3.0, term: 3-1, assessment: 考试, nature: 必修, category: 专业课}
+      - {code: B034908, name: 计算机网络（英文）, credit: 3.5, term: 3-1, assessment: 考试, nature: 必修, category: 专业课}
+      - {code: B034002, name: 算法设计与分析, credit: 2.5, term: 3-1, assessment: 考试, nature: 必修, category: 专业课}
+      - {code: B034003, name: 数学建模实践, credit: 1.5, term: 3-1, assessment: 考试, nature: 必修, category: 专业课}
+      - {code: B034910, name: 操作系统, credit: 3.5, term: 3-2, assessment: 考试, nature: 必修, category: 专业课}
+      - {code: B034006, name: 软件工程, credit: 2.0, term: 3-2, assessment: 考试, nature: 必修, category: 专业课}
+      - {code: B034913, name: 编译原理, credit: 3.0, term: 4-1, assessment: 考试, nature: 必修, category: 专业课}
+      - {code: B034004, name: 计算机体系结构, credit: 3.5, term: 4-1, assessment: 考试, nature: 必修, category: 专业课}
+
+  - id: M5
+    name: 专业方向课
+    mode: any_of
+    require: 6.0
+    children:
+      - id: M5-1
+        name: 人工智能
+        mode: all_of
+        require: 6.0
+        direction: true
+        courses:
+          - {code: B035013, name: 神经网络与深度学习, credit: 2.0, term: 3-1, assessment: 考试, nature: 选修, category: 专业课, tags: ["人工智能+"]}
+          - {code: B035014, name: 机器感知技术, credit: 2.0, term: 3-2, assessment: 考试, nature: 选修, category: 专业课, tags: ["人工智能+"]}
+          - {code: B035015, name: 大模型技术及应用, credit: 2.0, term: 3-2, assessment: 考试, nature: 选修, category: 专业课, tags: [科教融汇]}
+      - id: M5-2
+        name: 嵌入式系统
+        mode: all_of
+        require: 6.0
+        direction: true
+        courses:
+          - {code: B035016, name: FPGA设计, credit: 2.0, term: 3-1, assessment: 考试, nature: 选修, category: 专业课}
+          - {code: B035017, name: 嵌入式系统原理与应用, credit: 2.0, term: 3-2, assessment: 考试, nature: 选修, category: 专业课}
+          - {code: B035018, name: 嵌入式操作系统, credit: 2.0, term: 3-2, assessment: 考试, nature: 选修, category: 专业课}
+      - id: M5-3
+        name: 算网融合
+        mode: all_of
+        require: 6.0
+        direction: true
+        courses:
+          - {code: B035019, name: 分布式系统, credit: 2.0, term: 3-1, assessment: 考试, nature: 选修, category: 专业课}
+          - {code: B035020, name: 并行计算算法, credit: 2.0, term: 3-2, assessment: 考试, nature: 选修, category: 专业课}
+          - {code: B035021, name: 算力网络与算力互联, credit: 2.0, term: 3-2, assessment: 考试, nature: 选修, category: 专业课, tags: [科教融汇]}
+
+  - id: M6
+    name: 专业任选课
+    mode: free
+    require: 17.0
+    children:
+      - id: M6-1
+        name: 模块1（必选）
+        mode: free
+        require: 12.0
+        courses:
+          - {code: B036051, name: 科技发展与学科专业概论, credit: 1.0, term: 1-1, assessment: 考查, nature: 选修, category: 专业课}
+          - {code: B036028, name: 科研方法与创新实践基础, credit: 1.0, term: 1-2, assessment: 考查, nature: 选修, category: 专业课, tags: [科教融汇]}
+          - {code: B036013, name: 汇编语言, credit: 2.5, term: 2-1, assessment: 考试, nature: 选修, category: 专业课}
+          - {code: B036908, name: Python程序设计, credit: 2.5, term: 1-2, assessment: 考查, nature: 选修, category: 专业课}
+          - {code: B036036, name: 人工智能导论, credit: 2.0, term: 2-2, assessment: 考试, nature: 选修, category: 专业课, tags: ["人工智能+"]}
+          - {code: B036042, name: 写作与沟通, credit: 1.0, term: 2-2, assessment: 考查, nature: 选修, category: 专业课}
+          - {code: B036049, name: 边缘计算及安全（英文）, credit: 2.0, term: 3-1, assessment: 考试, nature: 选修, category: 专业课, tags: [科教融汇]}
+          - {code: B036034, name: 移动软件开发, credit: 2.0, term: 2-2, assessment: 考试, nature: 选修, category: 专业课}
+          - {code: B036040, name: 框架编程技术, credit: 2.0, term: 2-2, assessment: 考试, nature: 选修, category: 专业课}
+      - id: M6-2
+        name: 模块2（软件开发拓展类）
+        mode: free
+        require: 0.0
+        courses:
+          - {code: B036041, name: 软件体系结构, credit: 2.0, term: 2-2, assessment: 考试, nature: 选修, category: 专业课}
+          - {code: B036017, name: Web应用开发, credit: 2.5, term: 2-2, assessment: 考试, nature: 选修, category: 专业课}
+          - {code: B036025, name: 人机交互娱乐软件开发, credit: 1.0, term: 2-2, assessment: 考查, nature: 选修, category: 专业课}
+          - {code: B036050, name: 企业级应用开发, credit: 1.0, term: 3-1, assessment: 考查, nature: 选修, category: 专业课, tags: [产教融合]}
+          - {code: B036021, name: 软件测试, credit: 2.0, term: 2-2, assessment: 考试, nature: 选修, category: 专业课, tags: [产教融合]}
+          - {code: B036912, name: 软件项目管理, credit: 2.0, term: 2-1, assessment: 考试, nature: 选修, category: 专业课}
+      - id: M6-3
+        name: 模块3（综合素质提升类）
+        mode: free
+        require: 0.0
+        courses:
+          - {code: B036999, name: 数字经济学, credit: 2.0, term: 2-1, assessment: 考查, nature: 选修, category: 专业课, tags: [产教融合]}
+          - {code: B036998, name: 电子政务, credit: 2.0, term: 2-2, assessment: 考查, nature: 选修, category: 专业课}
+          - {code: B036920, name: 标准化概论, credit: 2.0, term: 3-1, assessment: 考查, nature: 选修, category: 专业课, tags: [产教融合]}
+          - {code: B036917, name: 计算机专业英语, credit: 1.0, term: 3-2, assessment: 考查, nature: 选修, category: 专业课}
+          - {code: B036918, name: 学科前沿技术, credit: 1.0, term: 3-2, assessment: 考查, nature: 选修, category: 专业课}
+      - id: M6-4
+        name: 模块4（专业能力提升类）
+        mode: free
+        require: 0.0
+        courses:
+          - {code: B036048, name: 计算方法, credit: 2.5, term: 3-1, assessment: 考试, nature: 选修, category: 专业课}
+          - {code: B036035, name: 数字图像处理, credit: 2.0, term: 3-2, assessment: 考试, nature: 选修, category: 专业课, tags: [科教融汇]}
+          - {code: B036008, name: 大数据技术基础, credit: 2.0, term: 2-2, assessment: 考试, nature: 选修, category: 专业课}
+          - {code: B036009, name: 大数据分析, credit: 2.0, term: 3-2, assessment: 考试, nature: 选修, category: 专业课, tags: [产教融合]}
+          - {code: B036010, name: 数据挖掘技术, credit: 2.0, term: 3-1, assessment: 考试, nature: 选修, category: 专业课}
+      - id: M6-5
+        name: 模块5
+        mode: free
+        require: 0.0
+        courses:
+          - {code: B036026, name: 无线网络技术, credit: 2.0, term: 3-2, assessment: 考试, nature: 选修, category: 专业课}
+          - {code: B036914, name: 信息安全概论, credit: 2.5, term: 3-1, assessment: 考试, nature: 选修, category: 专业课}
+
+  - id: M7
+    name: 集中性实践环节
+    mode: all_of
+    require: 31.0
+    courses:
+      - {code: B197004, name: 军事技能, credit: 2.0, term: 1-1, assessment: 考查, nature: 必修, category: 集中实践课}
+      - {code: B037001, name: 面向对象程序设计(Java)课程设计, credit: 1.0, term: 1-2, assessment: 考查, nature: 必修, category: 集中实践课}
+      - {code: B037002, name: 数据结构课程设计, credit: 1.0, term: 2-1, assessment: 考查, nature: 必修, category: 集中实践课}
+      - {code: B037004, name: 数据库原理课程设计, credit: 1.0, term: 2-1, assessment: 考查, nature: 必修, category: 集中实践课}
+      - {code: B037005, name: 计算机网络课程设计, credit: 1.0, term: 2-2, assessment: 考查, nature: 必修, category: 集中实践课}
+      - {code: B037006, name: 计算机组成原理课程设计, credit: 1.0, term: 2-2, assessment: 考查, nature: 必修, category: 集中实践课}
+      - {code: B037017, name: 软件工程综合设计, credit: 2.0, term: 3-1, assessment: 考查, nature: 必修, category: 集中实践课}
+      - {code: B037018, name: 计算机科学与技术创新实践, credit: 2.0, term: 3-2, assessment: 考查, nature: 必修, category: 集中实践课, tags: [方向创新实践]}
+      - {code: B037019, name: 综合实习, credit: 10.0, term: 4-1, assessment: 考查, nature: 必修, category: 集中实践课}
+      - {code: B037022, name: 毕业设计（论文）, credit: 10.0, term: 4-2, assessment: 考查, nature: 必修, category: 集中实践课}
+
+prerequisites:
+  - {course: B034910, prereq: B033905, type: 先修}
+  - {course: B034910, prereq: B033906, type: 先修}
+  - {course: B034913, prereq: B033905, type: 先修}
+  - {course: B034913, prereq: B033903, type: 先修}
+  - {course: B034002, prereq: B033905, type: 先修}
+  - {course: B034004, prereq: B033906, type: 先修}
+  - {course: B035013, prereq: B113123, type: 先修}
+  - {course: B035014, prereq: B035013, type: 同修}
+  - {course: B035015, prereq: B035013, type: 先修}
+  - {course: B035016, prereq: B033003, type: 先修}
+  - {course: B035017, prereq: B033906, type: 先修}
+  - {course: B035019, prereq: B034910, type: 先修}
+  - {course: B035020, prereq: B034910, type: 先修}
+  - {course: B036035, prereq: B113121, type: 先修}
+  - {course: B036048, prereq: B113102, type: 先修}
+  - {course: B036914, prereq: B034908, type: 先修}
+  - {course: B037017, prereq: B034006, type: 同修}
+  - {course: B037022, prereq: B037019, type: 先修}

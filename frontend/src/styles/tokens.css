@@ -1,0 +1,84 @@
+:root {
+  /* ---- ink & surfaces: warm paper, not cool glass ---- */
+  --ink: #15202b;
+  --ink-2: #263442;
+  --muted: #5e6b78;
+  --muted-2: #87919a;
+  --bg: #f4f3ee;
+  --bg-2: #eae8df;
+  --card: rgba(255, 254, 250, 0.78);
+  --card-solid: #fffefa;
+  --line: rgba(21, 32, 43, 0.1);
+  --line-strong: rgba(21, 32, 43, 0.17);
+
+  /* ---- one accent, semantic status set ---- */
+  --violet: #1e4ed8;
+  --indigo: #173a9c;
+  --cyan: #0b8f7b;
+  --blue: #2f66e8;
+  --green: #12836f;
+  --amber: #b26a1b;
+  --rose: #b8453f;
+
+  /* semantic aliases used by alerts, pills and data states */
+  --success: #0f7b63;
+  --success-bg: rgba(15, 123, 99, 0.08);
+  --success-line: rgba(15, 123, 99, 0.22);
+  --warning: #a45a12;
+  --warning-bg: rgba(164, 90, 18, 0.09);
+  --warning-line: rgba(164, 90, 18, 0.24);
+  --danger: #b23b36;
+  --danger-bg: rgba(178, 59, 54, 0.08);
+  --danger-line: rgba(178, 59, 54, 0.22);
+  --info: #1e4ed8;
+  --info-bg: rgba(30, 78, 216, 0.07);
+  --info-line: rgba(30, 78, 216, 0.2);
+
+  --surface: #fffefa;
+  --surface-2: #faf8f1;
+  --surface-3: #f1eee4;
+
+  /* type scale: display / page / section / card / body / small / micro */
+  --fs-display: 30px;
+  --fs-page: 28px;
+  --fs-section: 19px;
+  --fs-card: 15.5px;
+  --fs-body: 14px;
+  --fs-small: 12.5px;
+  --fs-micro: 11px;
+
+  /* 4px spacing rhythm */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  --grad: linear-gradient(135deg, #173a9c 0%, #1e4ed8 62%, #2f66e8 100%);
+  --grad-warm: linear-gradient(135deg, #b26a1b, #b8453f);
+  --grad-soft: linear-gradient(135deg, rgba(30, 78, 216, 0.1), rgba(11, 143, 123, 0.07));
+  --grad-sidebar: linear-gradient(168deg, #fbfaf5 0%, #f4f2ea 55%, #efede4 100%);
+
+  --shadow-sm: 0 1px 2px rgba(21, 32, 43, 0.04), 0 8px 24px rgba(21, 32, 43, 0.035);
+  --shadow-md: 0 2px 6px rgba(21, 32, 43, 0.05), 0 18px 44px rgba(21, 32, 43, 0.06);
+  --shadow-lg: 0 30px 80px rgba(21, 32, 43, 0.1), 0 6px 18px rgba(21, 32, 43, 0.04);
+  --glow: 0 0 0 1px rgba(30, 78, 216, 0.14), 0 18px 50px rgba(30, 78, 216, 0.12);
+
+  --r-xs: 4px;
+  --r-sm: 8px;
+  --r-md: 10px;
+  --r-lg: 12px;
+  --r-xl: 20px;
+
+  --font-sans: "Geist", "SF Pro Text", "Segoe UI", "PingFang SC", "HarmonyOS Sans SC", "Microsoft YaHei", sans-serif;
+  --font-display: "Geist", "SF Pro Display", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-serif: "Newsreader", "Georgia", "Times New Roman", "Noto Serif SC", "Songti SC", "SimSun", serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  --topbar-h: 68px;
+  --page-max: 1480px;
+  color-scheme: light;
+}

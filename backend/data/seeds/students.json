@@ -1,0 +1,133 @@
+{
+  "students": [
+    {
+      "student_no": "2023001",
+      "name": "张三",
+      "major": "计算机科学与技术（拔尖班）",
+      "grade": 2023,
+      "entry_year": 2023,
+      "class_name": "计科拔尖 2301",
+      "plan_id": "CS-BT-2024-v1",
+      "target_graduation_term": "2026-2027-2",
+      "current_term": "2025-2026-2",
+      "direction": "M5-1",
+      "enrollments": [
+        {"code": "B881209", "term": "2023-2024-1", "status": "passed", "score": 88},
+        {"code": "B881210", "term": "2023-2024-1", "status": "passed", "score": 85},
+        {"code": "B881212", "term": "2023-2024-2", "status": "passed", "score": 82},
+        {"code": "B881211", "term": "2024-2025-1", "status": "passed", "score": 79},
+        {"code": "B881215", "term": "2024-2025-1", "status": "passed", "score": 84},
+        {"code": "B881605", "term": "2023-2024-2", "status": "passed", "score": 90},
+        {"code": "B881606", "term": "2024-2025-1", "status": "passed", "score": 91},
+        {"code": "B881607", "term": "2024-2025-2", "status": "passed", "score": 88},
+        {"code": "B101001", "term": "2023-2024-1", "status": "passed", "score": 86},
+        {"code": "B101002", "term": "2023-2024-2", "status": "passed", "score": 83},
+        {"code": "B101003", "term": "2024-2025-1", "status": "passed", "score": 81},
+        {"code": "B101004", "term": "2024-2025-2", "status": "passed", "score": 84},
+        {"code": "B151101", "term": "2023-2024-1", "status": "passed", "score": 92},
+        {"code": "B151102", "term": "2023-2024-2", "status": "passed", "score": 90},
+        {"code": "B151103", "term": "2024-2025-1", "status": "passed", "score": 88},
+        {"code": "B151104", "term": "2024-2025-2", "status": "failed", "score": 48},
+        {"code": "B191003", "term": "2023-2024-1", "status": "passed", "score": 87},
+        {"code": "B191001", "term": "2023-2024-1", "status": "passed", "score": 90},
+        {"code": "B081004", "term": "2024-2025-2", "status": "passed", "score": 89},
+        {"code": "B881213", "term": "2023-2024-1", "status": "passed", "score": 91},
+        {"code": "B881214", "term": "2023-2024-2", "status": "passed", "score": 89},
+        {"code": "L031003", "term": "2024-2025-2", "status": "passed", "score": 93},
+
+        {"code": "B90A001", "term": "2024-2025-1", "status": "passed", "score": 92},
+        {"code": "B90A002", "term": "2024-2025-2", "status": "passed", "score": 88},
+        {"code": "B90A003", "term": "2025-2026-1", "status": "passed", "score": 90},
+        {"code": "B90A004", "term": "2023-2024-2", "status": "passed", "score": 95},
+        {"code": "B90A005", "term": "2024-2025-1", "status": "passed", "score": 87},
+        {"code": "B90A006", "term": "2024-2025-2", "status": "passed", "score": 89},
+        {"code": "B90A007", "term": "2024-2025-2", "status": "passed", "score": 86},
+        {"code": "B90A008", "term": "2025-2026-1", "status": "passed", "score": 91},
+
+        {"code": "B113101", "term": "2023-2024-1", "status": "passed", "score": 91},
+        {"code": "B113102", "term": "2023-2024-2", "status": "passed", "score": 86},
+        {"code": "B113121", "term": "2023-2024-1", "status": "passed", "score": 89},
+        {"code": "B113123", "term": "2024-2025-1", "status": "passed", "score": 84},
+        {"code": "B863504", "term": "2023-2024-2", "status": "passed", "score": 80},
+        {"code": "B033902", "term": "2023-2024-1", "status": "passed", "score": 94},
+        {"code": "B033931", "term": "2023-2024-2", "status": "passed", "score": 90},
+        {"code": "B033903", "term": "2023-2024-2", "status": "passed", "score": 88},
+        {"code": "B033905", "term": "2024-2025-1", "status": "passed", "score": 87},
+        {"code": "B033005", "term": "2024-2025-2", "status": "passed", "score": 95},
+        {"code": "B033906", "term": "2024-2025-2", "status": "passed", "score": 83},
+        {"code": "B033003", "term": "2023-2024-2", "status": "passed", "score": 82},
+
+        {"code": "B034005", "term": "2025-2026-1", "status": "passed", "score": 85},
+        {"code": "B034908", "term": "2025-2026-1", "status": "passed", "score": 82},
+        {"code": "B034002", "term": "2025-2026-1", "status": "passed", "score": 88},
+        {"code": "B034003", "term": "2025-2026-1", "status": "passed", "score": 84},
+
+        {"code": "B035013", "term": "2025-2026-1", "status": "passed", "score": 90},
+        {"code": "B035014", "term": "2025-2026-2", "status": "studying"},
+
+        {"code": "B036051", "term": "2023-2024-1", "status": "passed", "score": 93},
+        {"code": "B036028", "term": "2023-2024-2", "status": "passed", "score": 90},
+        {"code": "B036013", "term": "2024-2025-1", "status": "passed", "score": 78},
+        {"code": "B036908", "term": "2023-2024-2", "status": "passed", "score": 95},
+        {"code": "B036036", "term": "2024-2025-2", "status": "passed", "score": 88},
+        {"code": "B036041", "term": "2024-2025-2", "status": "passed", "score": 84},
+        {"code": "B036021", "term": "2024-2025-2", "status": "passed", "score": 86},
+        {"code": "B036999", "term": "2024-2025-1", "status": "passed", "score": 89},
+
+        {"code": "B197004", "term": "2023-2024-1", "status": "passed", "score": 92},
+        {"code": "B037001", "term": "2023-2024-2", "status": "passed", "score": 90},
+        {"code": "B037002", "term": "2024-2025-1", "status": "passed", "score": 88},
+        {"code": "B037004", "term": "2024-2025-1", "status": "passed", "score": 89},
+        {"code": "B037005", "term": "2024-2025-2", "status": "passed", "score": 87},
+        {"code": "B037006", "term": "2024-2025-2", "status": "passed", "score": 86},
+        {"code": "B037017", "term": "2025-2026-2", "status": "studying"}
+      ],
+      "second_classroom": [
+        {"category": "主题社会实践", "term": "2023-2024-2", "date": "2023-08-12", "title": "暑期三下乡社会实践：乡村振兴数字调研", "status": "approved"},
+        {"category": "主题社会实践", "term": "2024-2025-2", "date": "2024-08-05", "title": "社区数字助老志愿服务", "status": "approved"},
+        {"category": "创新实践", "term": "2023-2024-2", "date": "2024-06-20", "title": "大创项目《校园学业预警》结题报告", "status": "approved"},
+        {"category": "创新实践", "term": "2024-2025-2", "date": "2025-06-18", "title": "科研训练总结报告：图神经网络鲁棒性", "status": "approved"},
+        {"category": "学术交流研讨", "term": "2025-2026-2", "date": "2026-03-18", "title": "CCF 走进高校：大模型与智能体前沿讲座", "status": "approved"}
+      ],
+      "overlays": [
+        {"type": "方向锁定", "payload": {"direction": "M5-1", "name": "人工智能"}, "approved_by": "教学秘书", "effective_term": "2025-2026-1"}
+      ]
+    },
+    {
+      "student_no": "2023002",
+      "name": "王五",
+      "major": "计算机科学与技术（拔尖班）",
+      "grade": 2023,
+      "entry_year": 2023,
+      "class_name": "计科拔尖 2301",
+      "plan_id": "CS-BT-2024-v1",
+      "target_graduation_term": "2026-2027-2",
+      "current_term": "2025-2026-2",
+      "direction": "M5-2",
+      "synthetic": {
+        "up_to_index": 5,
+        "passed_ratio": 0.94,
+        "seed": 7,
+        "direction_courses": ["B035016", "B035017", "B035018"]
+      }
+    },
+    {
+      "student_no": "2024002",
+      "name": "李四",
+      "major": "计算机科学与技术（拔尖班）",
+      "grade": 2024,
+      "entry_year": 2024,
+      "class_name": "计科拔尖 2401",
+      "plan_id": "CS-BT-2024-v1",
+      "target_graduation_term": "2027-2028-2",
+      "current_term": "2025-2026-2",
+      "direction": null,
+      "synthetic": {
+        "up_to_index": 3,
+        "passed_ratio": 0.72,
+        "seed": 3,
+        "direction_courses": []
+      }
+    }
+  ]
+}
